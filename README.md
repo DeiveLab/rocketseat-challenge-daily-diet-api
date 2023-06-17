@@ -17,4 +17,4 @@ This project uses **Typescript** as the primary language and these essential lib
 - **tsup** - tsup transpiles all the code into JS code and puts it in a new folder to be used in production.
 ### Testing
 - **vitest** - like Fastify, vitest is currently outperforming the most used testing framework, Jest by using Vite natively.
-- **supertest** - used in this project to perform integration testing. Supertest creates a server instance that we can use to perform requests to our app endpoints and inspect its responses.
+- **supertest** - used in this project to perform e2e testing. Supertest creates a server instance that we can use to perform requests to our app endpoints and inspect its responses.

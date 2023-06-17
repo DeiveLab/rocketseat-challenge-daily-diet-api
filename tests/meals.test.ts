@@ -3,7 +3,7 @@ import request from 'supertest';
 import { app } from '../src/app';
 import { execSync } from 'node:child_process';
 
-describe('Meals routes integration tests', () => {
+describe('Meals routes e2e tests', () => {
     beforeAll(async () => {
         await app.ready();
     });
